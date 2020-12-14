@@ -13,16 +13,19 @@ h1 {
 .nav {
     background-color: rgb(255, 242, 0);
 }
+
 .nav ul {
-margin-top: 0;
-margin-bottom: 0;
-padding-left: 0;
-text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
 }
+
 .nav li {
-display: inline-block;
+    display: inline-block;
 
 }
+
 .nav a {
     padding: 20px;
     display: block;
@@ -69,7 +72,7 @@ display: inline-block;
 }
 
 .button:hover {
-color: rgb(236, 0, 140);
+    color: rgb(236, 0, 140);
 }
 
 .button2 {
@@ -86,11 +89,15 @@ color: rgb(236, 0, 140);
     color: rgb(255, 242, 0);
 }
 
-@media (min-width: 900px ) {
-    .nav { width: 80%;}
+
+
+@media (min-width: 900px) {
+    .nav {
+        width: 80%;
+    }
+
     h1 {
         width: unset;
-    } 
+    }
 }
-
 

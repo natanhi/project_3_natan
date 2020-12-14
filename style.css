@@ -91,7 +91,7 @@ h1 {
 
 
 
-@media (min-width: 900px) {
+@media (min-width: 500px) {
     .nav {
         width: 80%;
     }

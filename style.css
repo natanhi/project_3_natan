@@ -75,6 +75,10 @@ h1 {
     color: rgb(236, 0, 140);
 }
 
+.nav a:hover {
+    color:  rgb(236, 0, 140);
+}
+
 .button2 {
     background-color: rgb(236, 0, 140);
     text-align: center;
@@ -92,6 +96,7 @@ h1 {
 @media (min-width: 400px) {
     h1 {
         width: unset;
+        
        
     }
 }
@@ -100,6 +105,6 @@ h1 {
 @media (min-width: 600px) {
     .nav {
         width: 90%;
-        display: inline-block;
+        
     }
 }
